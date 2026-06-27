@@ -215,20 +215,6 @@ See [DESIGN.md](DESIGN.md) for the full system design document. Key decisions:
 
 ---
 
-## 🔮 Future Improvements
-
-- [ ] OCR support for scanned PDFs (Tesseract / EasyOCR)
-- [ ] Table and image extraction from PDFs
-- [ ] Multi-language support
-- [ ] Document versioning and incremental re-indexing
-- [ ] Re-ranking with a cross-encoder model
-- [ ] Query rewriting / expansion for better retrieval
-- [ ] Admin dashboard for document management
-- [ ] Authentication and role-based access control
-- [ ] Docker containerization for easy deployment
-- [ ] GPU acceleration for faster embeddings and inference
-
----
 
 ## 📝 License
 
