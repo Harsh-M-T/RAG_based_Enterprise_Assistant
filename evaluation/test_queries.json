@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "What is the employee leave policy?",
+        "expected_source": "hr_policy.pdf",
+        "expected_page": 2,
+        "expected_keywords": ["24", "paid", "leaves", "annually"],
+        "category": "HR"
+    },
+    {
+        "id": 2,
+        "question": "What is the refund policy?",
+        "expected_source": "product_faq.txt",
+        "expected_page": 1,
+        "expected_keywords": ["30 days", "refund", "prorated"],
+        "category": "Product"
+    },
+    {
+        "id": 3,
+        "question": "How do I file a complaint?",
+        "expected_source": "hr_policy.pdf",
+        "expected_page": 3,
+        "expected_keywords": ["complaint", "HR portal", "hr-complaints@acme.com"],
+        "category": "HR"
+    },
+    {
+        "id": 4,
+        "question": "What is the password policy?",
+        "expected_source": "security_guidelines.pdf",
+        "expected_page": 1,
+        "expected_keywords": ["12 characters", "MFA", "90 days"],
+        "category": "Security"
+    },
+    {
+        "id": 5,
+        "question": "What should I do on my first day?",
+        "expected_source": "onboarding.docx",
+        "expected_page": 1,
+        "expected_keywords": ["9:00 AM", "orientation", "IT setup"],
+        "category": "Onboarding"
+    },
+    {
+        "id": 6,
+        "question": "How much does the software cost?",
+        "expected_source": "product_faq.txt",
+        "expected_page": 1,
+        "expected_keywords": ["$29", "$59", "user/month"],
+        "category": "Product"
+    },
+    {
+        "id": 7,
+        "question": "What health insurance benefits does the company offer?",
+        "expected_source": "hr_policy.pdf",
+        "expected_page": 3,
+        "expected_keywords": ["health insurance", "family", "company"],
+        "category": "HR"
+    },
+    {
+        "id": 8,
+        "question": "How do I report a security incident?",
+        "expected_source": "security_guidelines.pdf",
+        "expected_page": 2,
+        "expected_keywords": ["security@acme.com", "SOC", "9999"],
+        "category": "Security"
+    },
+    {
+        "id": 9,
+        "question": "What is the maternity leave policy?",
+        "expected_source": "hr_policy.pdf",
+        "expected_page": 2,
+        "expected_keywords": ["26 weeks", "maternity", "paid"],
+        "category": "HR"
+    },
+    {
+        "id": 10,
+        "question": "What is the company's policy on quantum computing?",
+        "expected_source": null,
+        "expected_page": null,
+        "expected_keywords": ["don't have enough information"],
+        "category": "Out-of-scope"
+    }
+]
